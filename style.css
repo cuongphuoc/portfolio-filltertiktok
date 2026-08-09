@@ -320,11 +320,24 @@ nav .container {
     margin: 0 3rem;
     opacity: 0.3;
     transition: opacity 0.3s;
+    vertical-align: middle;
 }
 
 .marquee-content span:hover {
     opacity: 1;
     color: var(--accent-cyan);
+}
+
+.marquee-content img {
+    height: 60px;
+    margin: 0 2.5rem;
+    opacity: 0.4;
+    transition: opacity 0.3s;
+    vertical-align: middle;
+}
+
+.marquee-content img:hover {
+    opacity: 1;
 }
 
 @keyframes marquee {
