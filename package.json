@@ -1,0 +1,20 @@
+{
+  "name": "pc34-portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "description": "PC34 Studio portfolio — Vue 3 frontend + Express backend + MongoDB",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "build": "npm run build -w client",
+    "start": "node server/src/index.js",
+    "dev:server": "npm run dev -w server",
+    "dev:client": "npm run dev -w client",
+    "seed": "npm run seed -w server"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
